@@ -5,7 +5,7 @@ app= Flask(__name__)
 
 
 app.config['SECRET_KEY']= "your_secret_key"
-app.config['SQLALCHEMY_DATABASE_URI']= 'mysql+pymysql://adm:Dgyv4064&@127.0.0.1:3306/flask-crud'
+app.config['SQLALCHEMY_DATABASE_URI']= 'mysql+pymysql://adm:&@127.0.0.1:3306/flask-crud'
 db.init_app(app)
 
 diets= []
